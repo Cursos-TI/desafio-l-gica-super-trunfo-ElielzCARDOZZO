@@ -126,12 +126,12 @@
     //Impressões das opções de escolha em que o jogador poderá selecionar manualmente qual atributo desejável
 
     printf("COMPARAÇÃO ENTRE AS CARTAS 1 & 2:\n"); 
-    printf("ESCOLHA UM DOS ATRIBUTOS:\n");
     printf("1. POPULAÇÃO\n");
     printf("2. ÁREA\n");
     printf("3. PIB\n");
     printf("4. PONTOS TURÍSTICOS\n");
     printf("5. DENSIDADE DEMOGRÁFICA\n");
+    printf("ESCOLHA UM DOS ATRIBUTOS:");
     scanf("%d", &escolhaJogador);
 
     //Menu de opções já selecionáveis e com os demais atributos e seus respectivos valores unitários
